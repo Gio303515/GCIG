@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GCIG - Gestión de Control Institucional</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            padding: 60px 40px;
+            text-align: center;
+            max-width: 600px;
+            animation: fadeIn 0.8s ease-in;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        h1 {
+            color: #667eea;
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #666;
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+        
+        p {
+            color: #555;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+        
+        .features {
+            text-align: left;
+            margin: 40px 0;
+        }
+        
+        .feature-item {
+            padding: 15px;
+            margin: 10px 0;
+            background: #f5f5f5;
+            border-left: 4px solid #667eea;
+            border-radius: 5px;
+        }
+        
+        .feature-item strong {
+            color: #667eea;
+        }
+        
+        .button {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+        }
+        
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            font-size: 0.9em;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>GCIG</h1>
+        <p class="subtitle">Gestión de Control Institucional Gubernamental</p>
+        
+        <p>Plataforma de control y gobernanza para instituciones públicas.</p>
+        
+        <div class="features">
+            <div class="feature-item">
+                <strong>📊 Monitoreo:</strong> Seguimiento en tiempo real de procesos institucionales
+            </div>
+            <div class="feature-item">
+                <strong>⚙️ Control:</strong> Implementación de controles internos efectivos
+            </div>
+            <div class="feature-item">
+                <strong>📈 Análisis:</strong> Reportes y análisis de gestión
+            </div>
+            <div class="feature-item">
+                <strong>🔒 Seguridad:</strong> Cumplimiento normativo y regulatorio
+            </div>
+        </div>
+        
+        <a href="#" class="button">Conocer más</a>
+        
+        <footer>
+            <p>GCIG © 2025 | Alcaldía de Barranquilla</p>
+        </footer>
+    </div>
+</body>
+</html>
